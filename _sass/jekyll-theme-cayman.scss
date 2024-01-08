@@ -109,10 +109,8 @@ a {
   color: $header-heading-color;
   text-align: center;
   height: 380px;
-  background: url('/thumbnail.jpg') no-repeat;
-  background-blend-mode: multiply;
-  background-size: cover;
-
+  background-image: url('/thumbnail.jpg');
+  
   @include large {
     padding: 5rem 6rem;
   }
