@@ -111,8 +111,7 @@ a {
   background-color: $header-bg-color;
   background-image: url('../images/thumbnail.png');
   min-height: 120px;
-
-
+  min-width:350px;
 
   @include large {
     padding: 5rem 6rem;
