@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   height: 380px;
-  background-image: url(thumbnail.jpg);
+  background-image: url(./thumbnail.jpg);
   
   @include large {
     padding: 5rem 6rem;
