@@ -1,9 +1,30 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-{% include head-custom-google-analytics.html %}
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
-
-<!-- end custom head snippets -->
+  <nav>
+        <h3>
+          <ul>
+            {% for item in site.data.menu %}
+            <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </h3>
+      </nav>
+  
+      <style>
+        nav ul {
+          display: flex;
+          list-style: none;
+        }
+        nav ul li {
+          margin-left: 15px;
+        }
+        nav ul li a {
+          text-decoration: none;
+          color: black;'
+          text-align: right; <!--test if text-align should be here-->
+        }
+        nav ul li a:hover {
+          text-decoration: underline;
+        }
+        .active {
+          text-decoration: underline;
+        }
+      </style>
