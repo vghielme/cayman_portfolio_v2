@@ -110,8 +110,7 @@ a {
   text-align: center;
   background-image: url("thumbnail.png");
   background-position: center;
-  min-height: 120px;
-  min-width:350px;
+  background-size: cover;
 
   @include large {
     padding: 5rem 6rem;
