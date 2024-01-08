@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   height: 380px;
-  background: linear-gradient(90deg, #d4eece, #d4eece, #d4eece), url('/thumbnail.jpg') no-repeat;
+  background: url('/thumbnail.jpg') no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
 
