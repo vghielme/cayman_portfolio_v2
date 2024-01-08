@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Portfolio
+
 ---
 ## Graphene oxide assisted light-up aptamer selection against Thioflavin T for label-free detection of microRNA
 
