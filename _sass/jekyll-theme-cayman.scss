@@ -108,7 +108,7 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background image: "images/thumbnail.png";
+  background-image: "images/thumbnail.png";
   
   @include large {
     padding: 5rem 6rem;
