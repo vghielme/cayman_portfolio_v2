@@ -108,8 +108,6 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  height: 600px;
-  width: 2000px;
   
   @include large {
     padding: 5rem 6rem;
